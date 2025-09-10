@@ -13,8 +13,24 @@
         <button type="button" id="regisztracio">Regisztráció</button>
     </header>
 
-    <div id="loginCard">
+    <div id="loginCard" class="card">
         <h1>Bejelentkezés</h1>
+
+        <div>
+            <label>Email</label><br>
+            <input type="email" placeholder="your@gmail.com" required class="inputBox">
+        </div>
+
+        <div>
+            <label>Jelszó</label><br>
+            <input type="password" placeholder="********" required class="inputBox">
+        </div>
+
+        <button type="button" id="loginButton">Belépés</button>
+    </div>
+
+    <div id="registCard" class="card">
+        <h1>Regisztráció</h1>
 
         <div>
             <label>Email</label><br>
@@ -26,11 +42,12 @@
             <input type="password" placeholder="********" required class="inputBox">
         </div>
 
-        <button type="button" id="loginButton">Belépés</button>
-    </div>
+        <div>
+            <label>Jelszó újra</label><br>
+            <input type="password" placeholder="********" required class="inputBox">
+        </div>
 
-    <div id="registCard">
-
+        <button type="button" id="registButton">Regisztrál</button>
     </div>
 </body>
 </html>
