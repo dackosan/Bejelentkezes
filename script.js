@@ -1,5 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    const loginCard = document.getElementById("loginCard");
+    const registCard = document.getElementById("registCard");
+
+    document.getElementById("bejelentkezes").addEventListener("click", () => {
+        loginCard.style.display = "block";
+        registCard.style.display = "none";
+    });
+
+    document.getElementById("regisztracio").addEventListener("click", () => {
+        registCard.style.display = "block";
+        loginCard.style.display = "none";
+    });
+
     document.getElementById("loginButton").addEventListener("click", () => {
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

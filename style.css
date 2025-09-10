@@ -40,7 +40,7 @@ button:first-child:hover{
 }
 
 .card{
-    /*visibility: hidden;*/
+    display: none;
     border: 1px solid rgb(120, 120, 132);
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(120, 115, 127);
