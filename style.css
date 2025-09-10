@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+    margin: 0;
+}
+
+header{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: right;
+}
+
+header button{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgb(146, 108, 146);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 2px 5px;
+}
