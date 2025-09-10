@@ -104,3 +104,7 @@ button:first-child:hover{
     border: 1px solid rgb(2, 169, 2);
     cursor: pointer;
 }
+
+.helping{
+    font-size: 13px;
+}
